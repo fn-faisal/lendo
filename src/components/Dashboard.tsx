@@ -135,18 +135,16 @@ export const Dashboard = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ marginTop: '40px' }}>
-                <h2 className='header'>You Might want to know!</h2>
+            <div style={{ marginTop: '50px' }}>
+                <h3 className='header' style={{ marginBottom: '30px' }}>You Might want to know!</h3>
                 <Collapseable 
                     title='Why should I trust this tool'
                     content='Lorem ipsum....'
                 />
-                <hr className={styles.seperator} />
                 <Collapseable 
                     title='Why should I trust this tool'
                     content='Lorem ipsum....'
                 />
-                <hr className={styles.seperator} />
                 <Collapseable 
                     title='Why should I trust this tool'
                     content='Lorem ipsum....'

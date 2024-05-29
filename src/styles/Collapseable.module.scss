@@ -1,5 +1,12 @@
+@import './colors.scss';
+
 .container {
-    margin: 15px 0;
+    margin: 35px 0;
+    margin-bottom: 30px;
+    border: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $color-border-secondary; 
+    
     .title {
         display: flex;
         justify-content: space-between;
@@ -10,4 +17,6 @@
     .content {
         margin-top: 10px;
     }
+
 }
+
