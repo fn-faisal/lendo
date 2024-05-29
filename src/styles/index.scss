@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import './colors.scss';
+
+body {
+    padding-bottom: 100px;
+}
+
+p, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.header {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+}
+
+.link {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+    margin: 0
+}
+
+.link-sm {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: small;
+    font-weight: 300;
+    font-style: normal; 
+    margin: 0;
+    color: black;
+}
+
+.button {
+    background-color: $color-primary;
+    border: none;
+    padding: 15px 20px;
+    color: $color-primary-text;
+    border-radius: 25px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-primary;
+    }
+    &:active {
+        background-color: $color-primary-light;
+    }
+}
+
+.button-secondary {
+    background-color: $color-primary-text;
+    border: 1px solid $color-border-secondary;
+    padding: 15px 20px;
+    color: $color-secondary-text;
+
+    border-radius: 25px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-secondary-light;
+    }
+}
+
+.green {
+    color: #80CB17;
+}
+
+.card {
+    border: 1px solid $color-border-secondary;
+    border-radius: 15px;
+    padding: 10px
+}

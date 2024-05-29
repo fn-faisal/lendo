@@ -1,0 +1,8 @@
+
+@import './colors.scss';
+
+.container {
+    border: 1px solid $color-border-secondary;
+    border-radius: 15px;
+    padding: 10px
+}

@@ -1,0 +1,10 @@
+.constainer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    .promo {
+        height: 250;
+        width: 250;
+    } 
+}

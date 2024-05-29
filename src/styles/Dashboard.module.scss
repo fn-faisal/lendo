@@ -1,0 +1,25 @@
+@import './colors.scss';
+
+.container {
+    margin: 0px 30px;
+    margin-left: 0;
+    @media screen and (max-width: 768px) {
+        margin: 0 10px;    
+    }
+
+    .seperator {
+        border: 0;
+        border-bottom: 1px solid $color-border-secondary; 
+        margin: 20px 10px
+    }
+
+    .title {
+        width: 100%; 
+        display: flex; 
+        margin-top: 40px; 
+        justify-content: space-between
+    }
+    .content {
+        margin-top: 40px;
+    }
+}

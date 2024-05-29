@@ -1,0 +1,35 @@
+@import './colors.scss';
+.switch {
+    width: 30px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+.active {
+    background-color: #80CB17;
+}
+  
+  .switch-on {
+    transform: translateX(14px);
+  }
+  
+  .switch-off {
+    background-color: #ccc;
+    transform: translateX(0);
+  }
+  
+  .switch-handle {
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
